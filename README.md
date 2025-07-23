@@ -9,5 +9,10 @@ Benchmarking tool for Boto S3 signature performance.
   with various versions of boto3/botocore.
 * Examine `log.jsonl` or `uv run analyze_results.py` to group results into Markdown form.
 
+## Auxiliary scripts
+
+* `uv run find_unused_parameters.py -d botocore/data` – find which ruleset files have unreferenced parameters.
+
 [hyperfine]: https://github.com/sharkdp/hyperfine
 [uv]: https://github.com/astral-sh/uv
+
